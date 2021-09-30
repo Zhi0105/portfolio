@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Argie Barcena</title>
+
+    <link rel="icon" href="./img/logo.png" sizes="16x16">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    
+</head>
+<body>
+
+    <div class="main">
+        
+        <div class="header">
+
+            <!-- RESPONSIVE NAVIGATION-->
+            <div class="container">
+                <div class="navbar navbar-expand-md navbar-dark">
+                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                            
+                    <div class="navbar-collapse collapse" id="navbarMenu">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="javascript:void(0)" id="about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:void(0)" id="skill">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:void(0)" id="project">Projects</a>
+                            </li>
+                        </ul>    
+                    </div>    
+                </div>
+            </div>
+
+        </div>
+    
+        <div class="content">
+
+            <div class="container-xl"> <!--d-flex justify-content-center-->
+                <div class="img d-flex justify-content-center mt-5" id="img-div">
+                    <img class="mt-3 w-20" src="./img/argie.png" alt="Photo goes here!" id="image"/>
+                </div>
+                <div class="mt-4 d-flex justify-content-center">
+                    <p class="lead">Hi I'm Argie!</p>
+                </div>
+
+                <div class="info mt-4 d-flex justify-content-center">
+                    <p>I'm Computer Science graduate at Asian Institute of Computer Studies aspiring to become a Software Engineer.I want to obtain the position that I can use to develop my knowledge and skills through modern technologies and to provide strong contribution in company's goal that will help to the development and to provide the best opportunity and achivements.</p>
+                </div>
+
+                <br>
+                <hr class="mt-1" style="height:3px" id="skill-list"/>
+
+                <div class="mt-5"><h4 class="skill text-truncate">Skills</h4></div>
+
+                <h6 class="mt-4">HTML</h6>
+                <div class="progress mt-2" style="height: 25px;">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 80%"><label>80%</label></div>
+                </div>
+
+                <h6 class="mt-4">CSS</h6>
+                <div class="progress mt-2" style="height: 25px;">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 60%"><label>60%</label></div>
+                </div>
+
+                <h6 class="mt-4">JS</h6>
+                <div class="progress mt-2" style="height: 25px;">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 50%"><label>50%</label></div>
+                </div>
+
+                <h6 class="mt-4">Jquery</h6>
+                <div class="progress mt-2" style="height: 25px;">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 40%"><label>40%</label></div>
+                </div>
+
+                <h6 class="mt-4">PHP</h6>
+                <div class="progress mt-2" style="height: 25px;">
+                    <div class="progress-bar bg-light" role="progressbar" style="width: 70%"><label>70%</label></div>
+                </div>
+
+                <h6 class="mt-4">Wordpress</h6>
+                <div class="progress mt-2" style="height: 25px;">
+                    <div class="progress-bar bg-yellow" role="progressbar" style="width: 65%"><label>65%</label></div>
+                </div>
+
+                <br>
+                <hr class="mt-4" style="height:3px" id="mini-app"/>
+
+                <div class="mt-5 d-flex justify-content-center">
+                    <h4>Javascript Mini-App</h4>
+                </div>
+
+                <div class="container-xl d-flex justify-content-center w-100 mt-4">
+                    <div class="row">
+                        <!-- START TODO APP -->
+                        <div class="col-12 mt-2 col-md-6">
+                            <div class="card w-100">
+                                <div class="card-header">
+                                    <h3>List Items</h3>
+                                </div>
+                                <div class="card-body">
+                                <!-- <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                -->
+                                <div class="container-xl">
+                                    <form>
+                                        <div class="form-group">
+                                            <div class="row">
+                                                    <div class="col-10 col-md-10">
+                                                        <input type="text" class="form-control" id="task" placeholder="Enter task" required>
+                                                    </div>
+                                                    <div class="submit col-2 col-md-2">
+                                                        <input type="submit" class="fom-control btn btn-primary" id="submit" value="Enter">
+                                                    </div>
+                                                    <div class="col-6 mt-3 mb-2">
+                                                        <input type="search" class="form-control" id="filter" placeholder="filter task">
+                                                    </div>
+                                                    <div class="li-container col-12 mt-3">
+                                                        <ul class="list-group">
+                                                        </ul>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                
+                                </div>
+                                <div class="card-footer text-muted">
+                                    <a href="javascript:void(0)" class="clear btn btn-danger">Clear Task</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END OF TODO APP -->
+                        
+                        <div class="col-12 mt-4 col-md-6">
+                            <div class="alert" role="alert">
+                                <h5 class="alert-heading">Todo App Using JS with JSON Local Storage</h5>
+                                <ul>
+                                    <li><span>You can add task</span></li>
+                                    <li><span>You can delete task</span></li>
+                                    <li><span>You can remove all task</span></li>
+                                    <li><span>You can filter task</span></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <br>
+                        <hr class="mt-3" style="height:3px"/>
+
+                        <div class="col-12 mt-4 col-md-6">
+                            <div class="alert" role="alert">
+                                <h5 class="alert-heading">Simple Calculator Using JS</h5>
+                                <ul>
+                                    <li><span>You can perform 4 basic Math operator</span></li>
+                                    <li><span>This calculator follows MDAS rule of calculating</span></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- CALCULATOR START -->
+                        <div class="col-12 mt-4 col-md-6">
+                            <div class="container-xl d-flex justify-content-center">
+                                <table class="table table-bordered table-dark table-sm w-50">
+                                    <tr>
+                                        <td colspan="4" id="inputNumber" class="inputNumber">0</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"><button class="ac" onclick="insertBtn(this)">AC</button></td>
+                                        <td><button class="del" onclick="Del()">↵</button></td>
+                                        <td><button class="operand" onclick="insertBtn(this)">/</button></td>      
+                                    </tr>
+                                    <tr>
+                                        <td><button onclick="insertBtn(this)">7</button></td>
+                                        <td><button onclick="insertBtn(this)">8</button></td>
+                                        <td><button onclick="insertBtn(this)">9</button></td>
+                                        <td><button class="operand" onclick="insertBtn(this)">*</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><button onclick="insertBtn(this)">4</button></td>
+                                        <td><button onclick="insertBtn(this)">5</button></td>
+                                        <td><button onclick="insertBtn(this)">6</button></td>
+                                        <td><button class="operand" onclick="insertBtn(this)">-</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td><button onclick="insertBtn(this)">1</button></td>
+                                        <td><button onclick="insertBtn(this)">2</button></td>
+                                        <td><button onclick="insertBtn(this)">3</button></td>
+                                        <td><button class="operand" onclick="insertBtn(this)">+</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"><button onclick="Zero()">0</button></td>
+                                        <td><button onclick="insertBtn(this)" id="dec">.</button></td>
+                                        <td><button onclick="insertBtn(this)">=</button></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <!-- CALCULATOR END -->
+
+                        <br>
+                        <hr class="mt-3" style="height:3px"/>
+                        
+
+                        <!-- JS_FORM_VALIDATION START -->
+                        <div class="col-12 mt-4 col-md-6">
+                            <div class="card w-100">
+                                <div class="card-header">
+                                    <h3>js-form-validation</h3>
+                                </div>
+                                <div class="card-body">
+                                    <!--FORM-->
+                                    <form class='user-validate'>
+                                        <div class="row">
+                                            <div class="form-group">
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <input type="text" id="fname" placeholder="Firstname" class="form-control" maxlength="40" onkeypress="return /[a-z]/i.test(event.key)" required>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <input type="text" id="lname" placeholder="Lastname" class="form-control" maxlength="40" onkeypress="return /[a-z]/i.test(event.key)" required>
+                                                    </div>
+                                                    <div class="col-12 mt-3">
+                                                        <input type="Email" id="email" placeholder="Email" class="form-control" required>
+                                                    </div>
+                                                    <div class="gender col-12 mb-2">
+                                                        <label for="gender">Gender:</label>
+                                                        <select id="gender" class="form-control" required>
+                                                            <option value="...">...</option>
+                                                            <option value="male">Male</option>
+                                                            <option value="female">Female</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <input type="submit" id="submit" class="btn btn-primary form-control" value="Submit">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </form>
+                                    
+                                    <!--TABLE-->
+                                    <div class="form-table container-xl">
+                                        <table class="table table-bordered justify-content-center">
+                                            <thead>
+                                                <tr>
+                                                    <td>First name</td>
+                                                    <td>Last name</td>
+                                                    <td>Email</td>
+                                                    <td>Gender</td>
+                                                    <td>Action</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody id="data">
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="col-12 mt-4 col-md-6">
+                            <div class="alert" role="alert">
+                                <h5 class="alert-heading">Js form validation with OOP and JSON local storage functionality</h5>
+                                <ul>
+                                    <li><span>You can add data from form.</span></li>
+                                    <li><span>You can remove data from form.</span></li>
+                                    <li><span>Firstname and Lastname did not accept number.</span></li>
+                                    <li><span>Accept valid Email only.</span></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+
+                        <br>
+                        <hr class="mt-3" style="height:3px"/>
+                        
+                        <!-- DOWNLOADABLE RESUME -->
+                        <div class="mt-4 mb-5 d-flex justify-content-center">
+                            <a href="./resume/argiebarcena-resume.docx" class="btn btn-success">
+                                <span>My Resume</span> <img src="./img/dl.png" alt="Download photo" width="20px">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="footer">
+            <div class="container mt-4 mb-4">
+                <div class="row">
+                    <div class="col-12 mt-1">
+                        <a class="text-decoration-none text-white" href="https://www.facebook.com/aia.argie/" target="_blank"><img src="./img/fb.png" alt="fblogo" width="20px">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>aia.argie</span>
+                        </a>
+                    </div>
+                    <div class="col-12 mt-1">
+                        <img src="./img/tp.png" alt="telephone logo" width="20px">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>+639777933822</span>
+                    </div>
+                    <div class="col-12 mt-1">
+                        <img src="./img/gm.png" alt="gmail logo" width="20px">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>barcenaargie@gmail.com</span>
+                    </div>
+                    
+            </div>
+            </div>
+        </div>
+        
+    </div>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    <script src="./js/todo.js"></script>
+    <script src="./js/form.js"></script>
+    <script src="./js/scroll.js"></script>
+
+    <!-- SCRIPT FOR CALCULATOR -->
+    <script>
+        let inputNum = document.querySelector(`.inputNumber`)
+        
+    
+                if(inputNum.textContent > 9999999999){
+                  //  inputNum.textContent.style.fontsiZe = '20px'
+                    alert(`Hi`)
+                }
+    
+        //INPUTS
+        const insertBtn = (obj) => { 
+    
+            let insert = obj.innerHTML
+    
+            if(insert == '='){ 
+                //CALCULATE
+                inputNum.innerHTML = eval(inputNum.innerHTML)
+            }  
+            else if (insert == 'AC') {
+                //CLEAR
+                inputNum.innerHTML = '0'
+            }  
+            else {
+    
+                if(inputNum.textContent == '0'){
+                    inputNum.innerHTML = insert
+                } else {
+                    inputNum.innerHTML += insert
+                
+                }
+                
+            }
+    
+        }
+        //FOR DEL BUTTON
+        const Del = () => {
+            if(inputNum.textContent != 0){
+    
+                if(inputNum.textContent < 10){
+                    inputNum.textContent = 0
+                } else {
+                    inputNum.textContent = inputNum.textContent.slice(0, -1)
+                
+                }
+            } 
+    
+            if(inputNum.textContent == '0'){
+                inputNum.innerHTML = 0
+            }
+        }
+        
+    
+        //FOR ZERO BUTTON
+        const Zero = () => {
+            if(inputNum.textContent != 0){
+                inputNum.innerHTML += 0
+            }
+        }
+    
+    </script>
+
+
+</body> 
+</html>
